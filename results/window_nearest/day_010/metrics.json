@@ -1,0 +1,17 @@
+{
+  "total_parcels": 811,
+  "on_time_deliveries": 631,
+  "otdr_percent": 77.8052,
+  "delivered_parcels": 631,
+  "delivery_rate_percent": 77.8052,
+  "on_time_among_delivered_percent": 100.0,
+  "early_deliveries": 0,
+  "late_deliveries": 0,
+  "undelivered_parcels": 180,
+  "average_earliness_minutes": 0.0,
+  "average_lateness_minutes": 0.0,
+  "number_of_trips": 30,
+  "total_distance_km": 4095.912,
+  "average_distance_per_trip_km": 136.5304,
+  "average_capacity_utilization_percent": 66.8667
+}

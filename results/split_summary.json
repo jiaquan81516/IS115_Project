@@ -1,0 +1,318 @@
+{
+  "development_days_001_010": {
+    "baseline": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 27.2326,
+        "sample_standard_deviation": 1.8878,
+        "minimum": 24.7525,
+        "maximum": 31.1801
+      },
+      "delivery_rate_percent": {
+        "mean": 40.1052,
+        "sample_standard_deviation": 3.4386,
+        "minimum": 34.2822,
+        "maximum": 44.4169
+      },
+      "on_time_deliveries": {
+        "mean": 217.4,
+        "sample_standard_deviation": 14.6985,
+        "minimum": 200.0,
+        "maximum": 251.0
+      },
+      "number_of_trips": {
+        "mean": 20.6,
+        "sample_standard_deviation": 0.6992,
+        "minimum": 20.0,
+        "maximum": 22.0
+      },
+      "total_distance_km": {
+        "mean": 5199.9504,
+        "sample_standard_deviation": 41.4141,
+        "minimum": 5147.52,
+        "maximum": 5258.442
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 49.4032,
+        "sample_standard_deviation": 4.1534,
+        "minimum": 42.1364,
+        "maximum": 55.95
+      }
+    },
+    "deadline_first": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 16.7876,
+        "sample_standard_deviation": 1.6933,
+        "minimum": 13.9334,
+        "maximum": 20.1242
+      },
+      "delivery_rate_percent": {
+        "mean": 51.6488,
+        "sample_standard_deviation": 2.6889,
+        "minimum": 47.2772,
+        "maximum": 57.072
+      },
+      "on_time_deliveries": {
+        "mean": 134.0,
+        "sample_standard_deviation": 13.2665,
+        "minimum": 113.0,
+        "maximum": 162.0
+      },
+      "number_of_trips": {
+        "mean": 21.3,
+        "sample_standard_deviation": 0.8233,
+        "minimum": 20.0,
+        "maximum": 22.0
+      },
+      "total_distance_km": {
+        "mean": 5177.1876,
+        "sample_standard_deviation": 15.8545,
+        "minimum": 5155.452,
+        "maximum": 5200.011
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 61.4267,
+        "sample_standard_deviation": 2.066,
+        "minimum": 58.8788,
+        "maximum": 64.9394
+      }
+    },
+    "window_nearest": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 84.2981,
+        "sample_standard_deviation": 5.9825,
+        "minimum": 77.8052,
+        "maximum": 95.0495
+      },
+      "delivery_rate_percent": {
+        "mean": 84.2981,
+        "sample_standard_deviation": 5.9825,
+        "minimum": 77.8052,
+        "maximum": 95.0495
+      },
+      "on_time_deliveries": {
+        "mean": 672.8,
+        "sample_standard_deviation": 43.8072,
+        "minimum": 631.0,
+        "maximum": 768.0
+      },
+      "number_of_trips": {
+        "mean": 31.4,
+        "sample_standard_deviation": 1.075,
+        "minimum": 30.0,
+        "maximum": 33.0
+      },
+      "total_distance_km": {
+        "mean": 4142.9595,
+        "sample_standard_deviation": 90.2196,
+        "minimum": 3995.511,
+        "maximum": 4292.379
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 67.8881,
+        "sample_standard_deviation": 4.0557,
+        "minimum": 61.8485,
+        "maximum": 74.4375
+      }
+    },
+    "hybrid_otdr": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 87.934,
+        "sample_standard_deviation": 3.4384,
+        "minimum": 83.2902,
+        "maximum": 95.0255
+      },
+      "delivery_rate_percent": {
+        "mean": 87.934,
+        "sample_standard_deviation": 3.4384,
+        "minimum": 83.2902,
+        "maximum": 95.0255
+      },
+      "on_time_deliveries": {
+        "mean": 702.1,
+        "sample_standard_deviation": 27.6705,
+        "minimum": 643.0,
+        "maximum": 745.0
+      },
+      "number_of_trips": {
+        "mean": 30.1,
+        "sample_standard_deviation": 1.5239,
+        "minimum": 27.0,
+        "maximum": 32.0
+      },
+      "total_distance_km": {
+        "mean": 3679.9668,
+        "sample_standard_deviation": 263.8522,
+        "minimum": 3310.107,
+        "maximum": 4005.963
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 74.0661,
+        "sample_standard_deviation": 2.9054,
+        "minimum": 70.8817,
+        "maximum": 81.5926
+      }
+    }
+  },
+  "evaluation_days_011_020": {
+    "baseline": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 27.5841,
+        "sample_standard_deviation": 1.3594,
+        "minimum": 25.3485,
+        "maximum": 30.5276
+      },
+      "delivery_rate_percent": {
+        "mean": 40.8011,
+        "sample_standard_deviation": 3.3129,
+        "minimum": 36.3752,
+        "maximum": 46.2312
+      },
+      "on_time_deliveries": {
+        "mean": 217.5,
+        "sample_standard_deviation": 12.9293,
+        "minimum": 200.0,
+        "maximum": 243.0
+      },
+      "number_of_trips": {
+        "mean": 20.7,
+        "sample_standard_deviation": 0.6749,
+        "minimum": 20.0,
+        "maximum": 22.0
+      },
+      "total_distance_km": {
+        "mean": 5207.1447,
+        "sample_standard_deviation": 23.008,
+        "minimum": 5169.372,
+        "maximum": 5237.565
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 50.2541,
+        "sample_standard_deviation": 3.6203,
+        "minimum": 44.1111,
+        "maximum": 56.1746
+      }
+    },
+    "deadline_first": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 17.5713,
+        "sample_standard_deviation": 0.9751,
+        "minimum": 15.9348,
+        "maximum": 19.2649
+      },
+      "delivery_rate_percent": {
+        "mean": 51.3502,
+        "sample_standard_deviation": 1.5452,
+        "minimum": 49.1762,
+        "maximum": 54.023
+      },
+      "on_time_deliveries": {
+        "mean": 138.5,
+        "sample_standard_deviation": 8.0726,
+        "minimum": 127.0,
+        "maximum": 152.0
+      },
+      "number_of_trips": {
+        "mean": 21.2,
+        "sample_standard_deviation": 0.4216,
+        "minimum": 21.0,
+        "maximum": 22.0
+      },
+      "total_distance_km": {
+        "mean": 5183.4513,
+        "sample_standard_deviation": 22.6387,
+        "minimum": 5146.911,
+        "maximum": 5221.719
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 61.3236,
+        "sample_standard_deviation": 1.7261,
+        "minimum": 58.0606,
+        "maximum": 63.9048
+      }
+    },
+    "window_nearest": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 81.5798,
+        "sample_standard_deviation": 3.73,
+        "minimum": 78.2776,
+        "maximum": 91.2171
+      },
+      "delivery_rate_percent": {
+        "mean": 81.5798,
+        "sample_standard_deviation": 3.73,
+        "minimum": 78.2776,
+        "maximum": 91.2171
+      },
+      "on_time_deliveries": {
+        "mean": 643.2,
+        "sample_standard_deviation": 35.3704,
+        "minimum": 609.0,
+        "maximum": 727.0
+      },
+      "number_of_trips": {
+        "mean": 30.9,
+        "sample_standard_deviation": 1.2867,
+        "minimum": 28.0,
+        "maximum": 33.0
+      },
+      "total_distance_km": {
+        "mean": 4196.1906,
+        "sample_standard_deviation": 88.0992,
+        "minimum": 4100.631,
+        "maximum": 4341.822
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 67.0631,
+        "sample_standard_deviation": 2.3957,
+        "minimum": 64.1875,
+        "maximum": 70.8214
+      }
+    },
+    "hybrid_otdr": {
+      "days": 10,
+      "otdr_percent": {
+        "mean": 87.8159,
+        "sample_standard_deviation": 3.5513,
+        "minimum": 81.7136,
+        "maximum": 92.698
+      },
+      "delivery_rate_percent": {
+        "mean": 87.8159,
+        "sample_standard_deviation": 3.5513,
+        "minimum": 81.7136,
+        "maximum": 92.698
+      },
+      "on_time_deliveries": {
+        "mean": 692.2,
+        "sample_standard_deviation": 31.0476,
+        "minimum": 639.0,
+        "maximum": 749.0
+      },
+      "number_of_trips": {
+        "mean": 30.4,
+        "sample_standard_deviation": 1.3499,
+        "minimum": 28.0,
+        "maximum": 32.0
+      },
+      "total_distance_km": {
+        "mean": 3651.2124,
+        "sample_standard_deviation": 173.5627,
+        "minimum": 3405.099,
+        "maximum": 3920.151
+      },
+      "average_capacity_utilization_percent": {
+        "mean": 73.1185,
+        "sample_standard_deviation": 0.9019,
+        "minimum": 71.8222,
+        "maximum": 74.9
+      }
+    }
+  }
+}
