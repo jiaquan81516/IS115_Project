@@ -1,0 +1,217 @@
+{
+ "otdr_by_window_length_percent": {
+  "baseline": {
+   "under 1 h": 0.0,
+   "1 to 2 h": 0.07,
+   "2 to 4 h": 3.43,
+   "4 h or more": 68.59
+  },
+  "deadline_first": {
+   "under 1 h": 1.03,
+   "1 to 2 h": 0.59,
+   "2 to 4 h": 1.65,
+   "4 h or more": 42.3
+  },
+  "window_nearest": {
+   "under 1 h": 74.88,
+   "1 to 2 h": 66.83,
+   "2 to 4 h": 94.92,
+   "4 h or more": 100.0
+  },
+  "hybrid_otdr": {
+   "under 1 h": 83.16,
+   "1 to 2 h": 76.24,
+   "2 to 4 h": 96.57,
+   "4 h or more": 100.0
+  },
+  "seeded_nn": {
+   "under 1 h": 87.77,
+   "1 to 2 h": 83.41,
+   "2 to 4 h": 96.78,
+   "4 h or more": 100.0
+  },
+  "batched_nn": {
+   "under 1 h": 87.58,
+   "1 to 2 h": 87.02,
+   "2 to 4 h": 95.85,
+   "4 h or more": 100.0
+  }
+ },
+ "otdr_by_arrival_period_percent": {
+  "baseline": {
+   "08:00-10:59": 56.86,
+   "11:00-12:59": 0.0,
+   "15:00-17:59": 2.62
+  },
+  "deadline_first": {
+   "08:00-10:59": 35.22,
+   "11:00-12:59": 0.64,
+   "15:00-17:59": 1.19
+  },
+  "window_nearest": {
+   "08:00-10:59": 84.86,
+   "11:00-12:59": 85.3,
+   "15:00-17:59": 68.44
+  },
+  "hybrid_otdr": {
+   "08:00-10:59": 93.43,
+   "11:00-12:59": 86.59,
+   "15:00-17:59": 71.11
+  },
+  "seeded_nn": {
+   "08:00-10:59": 94.12,
+   "11:00-12:59": 94.59,
+   "15:00-17:59": 71.56
+  },
+  "batched_nn": {
+   "08:00-10:59": 98.62,
+   "11:00-12:59": 93.1,
+   "15:00-17:59": 71.41
+  }
+ },
+ "hybrid_vs_window_nearest_by_arrival_hour": {
+  "days_2_4_19": {
+   "hybrid_otdr": {
+    "8": {
+     "on_time_per_day": 252.66666666666666,
+     "parcels_per_day": 252.66666666666666
+    },
+    "10": {
+     "on_time_per_day": 92.66666666666667,
+     "parcels_per_day": 125.66666666666667
+    },
+    "11": {
+     "on_time_per_day": 176.66666666666666,
+     "parcels_per_day": 207.33333333333334
+    },
+    "12": {
+     "on_time_per_day": 83.33333333333333,
+     "parcels_per_day": 108.66666666666667
+    },
+    "15": {
+     "on_time_per_day": 65.33333333333333,
+     "parcels_per_day": 67.66666666666667
+    },
+    "16": {
+     "on_time_per_day": 2.6666666666666665,
+     "parcels_per_day": 24.333333333333332
+    },
+    "17": {
+     "on_time_per_day": 0.0,
+     "parcels_per_day": 6.0
+    }
+   },
+   "window_nearest": {
+    "8": {
+     "on_time_per_day": 252.66666666666666,
+     "parcels_per_day": 252.66666666666666
+    },
+    "10": {
+     "on_time_per_day": 111.33333333333333,
+     "parcels_per_day": 125.66666666666667
+    },
+    "11": {
+     "on_time_per_day": 204.0,
+     "parcels_per_day": 207.33333333333334
+    },
+    "12": {
+     "on_time_per_day": 106.0,
+     "parcels_per_day": 108.66666666666667
+    },
+    "15": {
+     "on_time_per_day": 63.0,
+     "parcels_per_day": 67.66666666666667
+    },
+    "16": {
+     "on_time_per_day": 1.6666666666666667,
+     "parcels_per_day": 24.333333333333332
+    },
+    "17": {
+     "on_time_per_day": 0.0,
+     "parcels_per_day": 6.0
+    }
+   }
+  },
+  "other_days": {
+   "hybrid_otdr": {
+    "8": {
+     "on_time_per_day": 259.94117647058823,
+     "parcels_per_day": 264.7647058823529
+    },
+    "9": {
+     "on_time_per_day": 27.88235294117647,
+     "parcels_per_day": 40.1764705882353
+    },
+    "10": {
+     "on_time_per_day": 66.47058823529412,
+     "parcels_per_day": 72.70588235294117
+    },
+    "11": {
+     "on_time_per_day": 182.94117647058823,
+     "parcels_per_day": 205.88235294117646
+    },
+    "12": {
+     "on_time_per_day": 91.41176470588235,
+     "parcels_per_day": 108.17647058823529
+    },
+    "15": {
+     "on_time_per_day": 67.41176470588235,
+     "parcels_per_day": 69.70588235294117
+    },
+    "16": {
+     "on_time_per_day": 5.294117647058823,
+     "parcels_per_day": 25.058823529411764
+    },
+    "17": {
+     "on_time_per_day": 0.0,
+     "parcels_per_day": 7.0588235294117645
+    }
+   },
+   "window_nearest": {
+    "8": {
+     "on_time_per_day": 250.23529411764707,
+     "parcels_per_day": 264.7647058823529
+    },
+    "9": {
+     "on_time_per_day": 0.0,
+     "parcels_per_day": 40.1764705882353
+    },
+    "10": {
+     "on_time_per_day": 62.64705882352941,
+     "parcels_per_day": 72.70588235294117
+    },
+    "11": {
+     "on_time_per_day": 172.7058823529412,
+     "parcels_per_day": 205.88235294117646
+    },
+    "12": {
+     "on_time_per_day": 88.05882352941177,
+     "parcels_per_day": 108.17647058823529
+    },
+    "15": {
+     "on_time_per_day": 66.6470588235294,
+     "parcels_per_day": 69.70588235294117
+    },
+    "16": {
+     "on_time_per_day": 3.4705882352941178,
+     "parcels_per_day": 25.058823529411764
+    },
+    "17": {
+     "on_time_per_day": 0.0,
+     "parcels_per_day": 7.0588235294117645
+    }
+   }
+  }
+ },
+ "parcels_per_day_by_window_length": {
+  "under 1 h": 53.15,
+  "1 to 2 h": 357.15,
+  "2 to 4 h": 69.9,
+  "4 h or more": 313.15
+ },
+ "parcels_per_day_by_arrival_period": {
+  "08:00-10:59": 377.75,
+  "11:00-12:59": 314.35,
+  "15:00-17:59": 101.25
+ }
+}

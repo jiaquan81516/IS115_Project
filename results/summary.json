@@ -154,5 +154,83 @@
       "minimum": 70.8817,
       "maximum": 81.5926
     }
+  },
+  "seeded_nn": {
+    "days": 20,
+    "otdr_percent": {
+      "mean": 91.4316,
+      "sample_standard_deviation": 4.0614,
+      "minimum": 82.5495,
+      "maximum": 96.8593
+    },
+    "delivery_rate_percent": {
+      "mean": 91.4316,
+      "sample_standard_deviation": 4.0614,
+      "minimum": 82.5495,
+      "maximum": 96.8593
+    },
+    "on_time_deliveries": {
+      "mean": 725.35,
+      "sample_standard_deviation": 34.1549,
+      "minimum": 665.0,
+      "maximum": 779.0
+    },
+    "number_of_trips": {
+      "mean": 31.4,
+      "sample_standard_deviation": 1.0954,
+      "minimum": 29.0,
+      "maximum": 33.0
+    },
+    "total_distance_km": {
+      "mean": 3420.9891,
+      "sample_standard_deviation": 104.343,
+      "minimum": 3235.734,
+      "maximum": 3612.708
+    },
+    "average_capacity_utilization_percent": {
+      "mean": 73.7961,
+      "sample_standard_deviation": 3.1287,
+      "minimum": 69.4333,
+      "maximum": 81.2414
+    }
+  },
+  "batched_nn": {
+    "days": 20,
+    "otdr_percent": {
+      "mean": 92.961,
+      "sample_standard_deviation": 3.0833,
+      "minimum": 86.3861,
+      "maximum": 96.608
+    },
+    "delivery_rate_percent": {
+      "mean": 92.961,
+      "sample_standard_deviation": 3.0833,
+      "minimum": 86.3861,
+      "maximum": 96.608
+    },
+    "on_time_deliveries": {
+      "mean": 737.5,
+      "sample_standard_deviation": 27.2928,
+      "minimum": 695.0,
+      "maximum": 780.0
+    },
+    "number_of_trips": {
+      "mean": 28.85,
+      "sample_standard_deviation": 1.4965,
+      "minimum": 26.0,
+      "maximum": 32.0
+    },
+    "total_distance_km": {
+      "mean": 3256.7064,
+      "sample_standard_deviation": 121.5301,
+      "minimum": 3024.519,
+      "maximum": 3418.701
+    },
+    "average_capacity_utilization_percent": {
+      "mean": 81.7259,
+      "sample_standard_deviation": 4.4496,
+      "minimum": 75.0778,
+      "maximum": 89.7901
+    }
   }
 }

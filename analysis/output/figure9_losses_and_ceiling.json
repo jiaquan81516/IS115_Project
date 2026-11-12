@@ -1,0 +1,105 @@
+{
+ "policy": "batched_nn",
+ "days": 20,
+ "ceiling_percent_mean": 96.46139791050466,
+ "ceiling_by_day": [
+  95.99499374217773,
+  95.85492227979275,
+  95.96977329974811,
+  96.9059405940594,
+  97.14640198511167,
+  95.91836734693878,
+  96.64596273291926,
+  97.02970297029702,
+  95.86466165413533,
+  96.6707768187423,
+  96.65841584158416,
+  96.04086845466156,
+  96.95817490494296,
+  96.27249357326478,
+  96.98492462311557,
+  95.98494353826851,
+  96.32446134347275,
+  96.4613368283093,
+  96.73776662484316,
+  96.80306905370844
+ ],
+ "not_on_time_per_day": 55.85,
+ "of_which_individually_feasible_per_day": 27.8,
+ "by_arrival_hour": {
+  "8": {
+   "parcels_per_day": 262.95,
+   "not_on_time_per_day": 0.85,
+   "lost_but_feasible_per_day": 0.85
+  },
+  "9": {
+   "parcels_per_day": 34.15,
+   "not_on_time_per_day": 2.25,
+   "lost_but_feasible_per_day": 2.25
+  },
+  "10": {
+   "parcels_per_day": 80.65,
+   "not_on_time_per_day": 2.1,
+   "lost_but_feasible_per_day": 2.1
+  },
+  "11": {
+   "parcels_per_day": 206.1,
+   "not_on_time_per_day": 14.15,
+   "lost_but_feasible_per_day": 14.15
+  },
+  "12": {
+   "parcels_per_day": 108.25,
+   "not_on_time_per_day": 7.55,
+   "lost_but_feasible_per_day": 7.55
+  },
+  "15": {
+   "parcels_per_day": 69.4,
+   "not_on_time_per_day": 2.75,
+   "lost_but_feasible_per_day": 0.65
+  },
+  "16": {
+   "parcels_per_day": 24.95,
+   "not_on_time_per_day": 19.3,
+   "lost_but_feasible_per_day": 0.25
+  },
+  "17": {
+   "parcels_per_day": 6.9,
+   "not_on_time_per_day": 6.9,
+   "lost_but_feasible_per_day": 0.0
+  }
+ },
+ "by_window_length": {
+  "1-2 h": {
+   "parcels_per_day": 357.15,
+   "not_on_time_per_day": 46.35,
+   "share_lost": 0.12977740445191097
+  },
+  ">=4 h": {
+   "parcels_per_day": 313.15,
+   "not_on_time_per_day": 0.0,
+   "share_lost": 0.0
+  },
+  "2-4 h": {
+   "parcels_per_day": 69.9,
+   "not_on_time_per_day": 2.9,
+   "share_lost": 0.04148783977110158
+  },
+  "<1 h": {
+   "parcels_per_day": 53.15,
+   "not_on_time_per_day": 6.6,
+   "share_lost": 0.12417685794920037
+  }
+ },
+ "by_distance_from_hub": {
+  "<40 km": {
+   "parcels_per_day": 332.0,
+   "not_on_time_per_day": 22.1,
+   "share_lost": 0.06656626506024096
+  },
+  "40-80 km": {
+   "parcels_per_day": 461.35,
+   "not_on_time_per_day": 33.75,
+   "share_lost": 0.07315487157255879
+  }
+ }
+}

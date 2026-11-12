@@ -1,0 +1,104 @@
+{
+ "baseline": {
+  "1": {
+   "parcels": 799,
+   "seconds": 0.0447314580001148,
+   "calls": 29,
+   "max_waiting": 579,
+   "mean_ms_per_call": 0.07276437930880186,
+   "max_ms_per_call": 0.25141700007225154
+  },
+  "2": {
+   "parcels": 1598,
+   "seconds": 0.08121866700003011,
+   "calls": 29,
+   "max_waiting": 1190,
+   "mean_ms_per_call": 0.14459331033980688,
+   "max_ms_per_call": 0.45112499992683297
+  },
+  "4": {
+   "parcels": 3196,
+   "seconds": 0.16005520799990336,
+   "calls": 28,
+   "max_waiting": 2467,
+   "mean_ms_per_call": 0.2882858213898284,
+   "max_ms_per_call": 0.8088330000646238
+  },
+  "8": {
+   "parcels": 6392,
+   "seconds": 0.3771874999999909,
+   "calls": 28,
+   "max_waiting": 5631,
+   "mean_ms_per_call": 0.6618705714507607,
+   "max_ms_per_call": 1.926708000155486
+  }
+ },
+ "hybrid_otdr": {
+  "1": {
+   "parcels": 799,
+   "seconds": 0.925872125000069,
+   "calls": 132,
+   "max_waiting": 316,
+   "mean_ms_per_call": 4.993515121220822,
+   "max_ms_per_call": 75.91454199996406
+  },
+  "2": {
+   "parcels": 1598,
+   "seconds": 3.2445428759999686,
+   "calls": 72,
+   "max_waiting": 853,
+   "mean_ms_per_call": 40.89441199999695,
+   "max_ms_per_call": 222.5488750000295
+  },
+  "4": {
+   "parcels": 3196,
+   "seconds": 9.1669477129999,
+   "calls": 84,
+   "max_waiting": 2007,
+   "mean_ms_per_call": 100.79646184523956,
+   "max_ms_per_call": 555.1952089999759
+  },
+  "8": {
+   "parcels": 6392,
+   "seconds": 30.210545972999853,
+   "calls": 80,
+   "max_waiting": 4899,
+   "mean_ms_per_call": 360.3363543625022,
+   "max_ms_per_call": 3363.2597520002037
+  }
+ },
+ "batched_nn": {
+  "1": {
+   "parcels": 799,
+   "seconds": 0.731559832999892,
+   "calls": 180,
+   "max_waiting": 308,
+   "mean_ms_per_call": 2.0497240666612826,
+   "max_ms_per_call": 68.85166600000048
+  },
+  "2": {
+   "parcels": 1598,
+   "seconds": 0.8908334180000566,
+   "calls": 103,
+   "max_waiting": 654,
+   "mean_ms_per_call": 4.632552543705405,
+   "max_ms_per_call": 24.380583000038314
+  },
+  "4": {
+   "parcels": 3196,
+   "seconds": 1.5659986260000096,
+   "calls": 76,
+   "max_waiting": 1995,
+   "mean_ms_per_call": 12.444164013168958,
+   "max_ms_per_call": 53.65275000008296
+  },
+  "8": {
+   "parcels": 6392,
+   "seconds": 3.4098924600000373,
+   "calls": 73,
+   "max_waiting": 4721,
+   "mean_ms_per_call": 29.497803575342715,
+   "max_ms_per_call": 152.45800000002419
+  }
+ }
+}
