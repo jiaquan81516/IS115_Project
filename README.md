@@ -28,7 +28,7 @@ The supplied `simulator/`, `data/` and `baseline.py` are unchanged.
 ## Requirements
 
 - Python 3.9 or later
-- Policies, simulator, monitor and tests: Python standard library only
+- Policies, simulator and performance monitor: Python standard library only
 - Charts only (`analysis/draw_charts.py`): `pip install matplotlib`
 
 Run every command from the project root.
@@ -89,15 +89,9 @@ This creates:
 
 Days 001–010 are treated as development data. Days 011–020 are treated as evaluation data.
 
-## Run tests
-
-```bash
-python3 -m unittest discover -s tests -v
-```
-
 ## Supplementary analyses
 
-Run these after the experiments above. Each writes a JSON file to `analysis/output/`.
+Run these after the experiments above (they need `results/` to exist). Each writes a JSON file to `analysis/output/`.
 
 ```bash
 python3 analysis/table9_by_window_and_arrival.py      # Table 9: OTDR by window length and arrival time
@@ -129,7 +123,6 @@ solution/policies/window_nearest.py
 solution/policies/hybrid_otdr.py
 solution/policies/seeded_nn.py
 solution/policies/batched_nn.py         Selected policy
-tests/                                  Unit tests for the policies and monitor
 analysis/shared_helpers.py              Common code for the analysis scripts
 analysis/table9_by_window_and_arrival.py
 analysis/tables10_12_ablation_sensitivity.py
