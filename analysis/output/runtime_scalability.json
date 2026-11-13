@@ -2,103 +2,103 @@
  "baseline": {
   "1": {
    "parcels": 799,
-   "seconds": 0.0447314580001148,
+   "seconds": 0.04275079200306209,
    "calls": 29,
    "max_waiting": 579,
-   "mean_ms_per_call": 0.07276437930880186,
-   "max_ms_per_call": 0.25141700007225154
+   "mean_ms_per_call": 0.06666517232400204,
+   "max_ms_per_call": 0.21145799837540835
   },
   "2": {
    "parcels": 1598,
-   "seconds": 0.08121866700003011,
+   "seconds": 0.07375804200273706,
    "calls": 29,
    "max_waiting": 1190,
-   "mean_ms_per_call": 0.14459331033980688,
-   "max_ms_per_call": 0.45112499992683297
+   "mean_ms_per_call": 0.12574717226831628,
+   "max_ms_per_call": 0.3954999992856756
   },
   "4": {
    "parcels": 3196,
-   "seconds": 0.16005520799990336,
+   "seconds": 0.14270783399842912,
    "calls": 28,
    "max_waiting": 2467,
-   "mean_ms_per_call": 0.2882858213898284,
-   "max_ms_per_call": 0.8088330000646238
+   "mean_ms_per_call": 0.2548854286682659,
+   "max_ms_per_call": 0.7616250004502945
   },
   "8": {
    "parcels": 6392,
-   "seconds": 0.3771874999999909,
+   "seconds": 0.32574900000327034,
    "calls": 28,
    "max_waiting": 5631,
-   "mean_ms_per_call": 0.6618705714507607,
-   "max_ms_per_call": 1.926708000155486
+   "mean_ms_per_call": 0.6181906075133676,
+   "max_ms_per_call": 1.915875000122469
   }
  },
  "hybrid_otdr": {
   "1": {
    "parcels": 799,
-   "seconds": 0.925872125000069,
+   "seconds": 0.940892625003471,
    "calls": 132,
    "max_waiting": 316,
-   "mean_ms_per_call": 4.993515121220822,
-   "max_ms_per_call": 75.91454199996406
+   "mean_ms_per_call": 5.163618424458863,
+   "max_ms_per_call": 74.14479200087953
   },
   "2": {
    "parcels": 1598,
-   "seconds": 3.2445428759999686,
+   "seconds": 3.1939110419989447,
    "calls": 72,
    "max_waiting": 853,
-   "mean_ms_per_call": 40.89441199999695,
-   "max_ms_per_call": 222.5488750000295
+   "mean_ms_per_call": 40.652406250147685,
+   "max_ms_per_call": 225.92716699728044
   },
   "4": {
    "parcels": 3196,
-   "seconds": 9.1669477129999,
+   "seconds": 8.95232208300149,
    "calls": 84,
    "max_waiting": 2007,
-   "mean_ms_per_call": 100.79646184523956,
-   "max_ms_per_call": 555.1952089999759
+   "mean_ms_per_call": 98.95187004795366,
+   "max_ms_per_call": 574.1845410011592
   },
   "8": {
    "parcels": 6392,
-   "seconds": 30.210545972999853,
+   "seconds": 29.622062332993664,
    "calls": 80,
    "max_waiting": 4899,
-   "mean_ms_per_call": 360.3363543625022,
-   "max_ms_per_call": 3363.2597520002037
+   "mean_ms_per_call": 354.64727085009145,
+   "max_ms_per_call": 3201.8922089991975
   }
  },
  "batched_nn": {
   "1": {
    "parcels": 799,
-   "seconds": 0.731559832999892,
+   "seconds": 0.7202487500035204,
    "calls": 180,
    "max_waiting": 308,
-   "mean_ms_per_call": 2.0497240666612826,
-   "max_ms_per_call": 68.85166600000048
+   "mean_ms_per_call": 2.080651150067246,
+   "max_ms_per_call": 73.36858400230994
   },
   "2": {
    "parcels": 1598,
-   "seconds": 0.8908334180000566,
+   "seconds": 0.8563838750051218,
    "calls": 103,
    "max_waiting": 654,
-   "mean_ms_per_call": 4.632552543705405,
-   "max_ms_per_call": 24.380583000038314
+   "mean_ms_per_call": 4.5534077671088635,
+   "max_ms_per_call": 24.49108300061198
   },
   "4": {
    "parcels": 3196,
-   "seconds": 1.5659986260000096,
+   "seconds": 1.4804817910044221,
    "calls": 76,
    "max_waiting": 1995,
-   "mean_ms_per_call": 12.444164013168958,
-   "max_ms_per_call": 53.65275000008296
+   "mean_ms_per_call": 11.994571289075171,
+   "max_ms_per_call": 52.74249999638414
   },
   "8": {
    "parcels": 6392,
-   "seconds": 3.4098924600000373,
+   "seconds": 3.2820207919940003,
    "calls": 73,
    "max_waiting": 4721,
-   "mean_ms_per_call": 29.497803575342715,
-   "max_ms_per_call": 152.45800000002419
+   "mean_ms_per_call": 29.3598584789896,
+   "max_ms_per_call": 151.43012499902397
   }
  }
 }

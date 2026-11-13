@@ -29,9 +29,21 @@ The supplied `simulator/`, `data/` and `baseline.py` are unchanged.
 
 - Python 3.9 or later
 - Policies, simulator and performance monitor: Python standard library only
-- Charts only (`analysis/draw_charts.py`): `pip install matplotlib`
+- Charts only (`analysis/draw_charts.py`): `pip install matplotlib` (or `pip install -r requirements.txt`)
+- Run with Python 3.10 on Linux. The simulator uses no random numbers, so every rerun gives identical results.
 
 Run every command from the project root.
+
+## Quick start: reproduce everything
+
+```bash
+bash run_all.sh                  # experiments, summary, analyses and charts (about 5 minutes)
+bash run_all.sh --skip-analysis  # experiments and summary only (about 2 minutes)
+bash run_all.sh --skip-charts    # skip the PNG charts (matplotlib not needed)
+```
+
+The script ends by comparing the headline with the report: Baseline 27.41% and Batched NN 92.96% mean OTDR over 20 days.
+The sections below run the same steps one at a time.
 
 ## Run one simulation
 
@@ -94,11 +106,27 @@ Days 001–010 are treated as development data. Days 011–020 are treated as ev
 Run these after the experiments above (they need `results/` to exist). Each writes a JSON file to `analysis/output/`.
 
 ```bash
-python3 analysis/table9_by_window_and_arrival.py      # Table 9: OTDR by window length and arrival time
-python3 analysis/tables10_12_ablation_sensitivity.py  # Tables 10-12: what each part adds, sensitivity, trade-offs (about 3 min)
-python3 analysis/figure9_losses_and_ceiling.py        # Figure 9: where parcels are lost, and the OTDR ceiling
-python3 analysis/runtime_scalability.py               # Run time as demand grows (about 1 min)
+python3 analysis/paired_comparisons.py                # paired daily differences with 95% intervals
+python3 analysis/trip_sizes.py                        # parcels per trip against the capacity of 30
+python3 analysis/table9_by_window_and_arrival.py      # OTDR by window length and arrival time
+python3 analysis/figure9_losses_and_ceiling.py        # where parcels are lost, and the OTDR ceiling
+python3 analysis/tables10_12_ablation_sensitivity.py  # what each part adds, sensitivity, trade-offs (about 2 min)
+python3 analysis/runtime_scalability.py               # run time as demand grows (about 1 min)
 ```
+
+## Where each report item comes from
+
+| Report item | Produced by | Output |
+|---|---|---|
+| Headline table, Table 4 (results by policy) | `solution/summarize_results.py` | `results/summary.json`, `results/summary.csv` |
+| Table 3 (run time as demand grows) | `analysis/runtime_scalability.py` | `analysis/output/runtime_scalability.json` |
+| Table 5 (paired comparisons) | `analysis/paired_comparisons.py` | `analysis/output/paired_comparisons.json` |
+| Table 6 (window length and arrival period) | `analysis/table9_by_window_and_arrival.py` | `analysis/output/table9_by_window_and_arrival.json` |
+| Tables 7 and 8 (ablation, sensitivity) | `analysis/tables10_12_ablation_sensitivity.py` | `analysis/output/tables10_12_ablation_sensitivity.json` |
+| OTDR ceiling, Figure 4 data | `analysis/figure9_losses_and_ceiling.py` | `analysis/output/figure9_losses_and_ceiling.json` |
+| Trip sizes (capacity in units, not parcels) | `analysis/trip_sizes.py` | `analysis/output/trip_sizes.json` |
+| Figures 3 and 4 | `analysis/draw_charts.py` | `analysis/figures/fig1_otdr_per_day.png`, `fig2_losses_by_arrival_hour.png` |
+| Tables 1 and 2, Figures 1 and 2 (policies, complexity, illustrations) | read from `solution/policies/*.py`; the figures are drawn illustrations | none |
 
 ## View the charts
 
@@ -107,7 +135,7 @@ pip install matplotlib
 python3 analysis/draw_charts.py
 ```
 
-PNG files are written to `analysis/figures/` (git-ignored). Add `--show` to also open them in windows.
+PNG files are written to `analysis/figures/` (git-ignored): `fig1_otdr_per_day.png` and `fig2_losses_by_arrival_hour.png` are the report's Figures 3 and 4; the five `fig_*.png` bar charts are extra. Run `figure9_losses_and_ceiling.py` first. Add `--show` to also open the charts in windows.
 
 ## Project structure
 
@@ -123,7 +151,11 @@ solution/policies/window_nearest.py
 solution/policies/hybrid_otdr.py
 solution/policies/seeded_nn.py
 solution/policies/batched_nn.py         Selected policy
+run_all.sh                              One-command reproduction of every result
+requirements.txt                        Optional package (matplotlib, charts only)
 analysis/shared_helpers.py              Common code for the analysis scripts
+analysis/paired_comparisons.py
+analysis/trip_sizes.py
 analysis/table9_by_window_and_arrival.py
 analysis/tables10_12_ablation_sensitivity.py
 analysis/figure9_losses_and_ceiling.py

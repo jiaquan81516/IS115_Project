@@ -1,7 +1,7 @@
 {
  "policy": "batched_nn",
  "days": 20,
- "ceiling_percent_mean": 96.46139791050466,
+ "ceiling_percent_mean": 96.46139791050467,
  "ceiling_by_day": [
   95.99499374217773,
   95.85492227979275,

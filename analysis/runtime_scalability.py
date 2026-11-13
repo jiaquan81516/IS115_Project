@@ -1,5 +1,5 @@
-"""Run time against demand volume: day 001 duplicated x1, x2, x4, x8 (same fleet), sequential timing."""
-import csv, json, shutil, time
+"""Report Table 3. Run time against demand volume: day 001 duplicated x1, x2, x4, x8 (same fleet), sequential timing."""
+import csv, json, shutil, tempfile, time
 from shared_helpers import *
 from solution.policies.helpers import waiting_ids
 
@@ -17,8 +17,8 @@ def make_synthetic(factor, root):
 if __name__ == "__main__":
     out = {}
     for factor in (1, 2, 4, 8):
-        root = make_synthetic(factor, "/tmp/synth")
-        n_parcels = 799 * factor
+        root = make_synthetic(factor, Path(tempfile.gettempdir()) / "is115_synthetic_days")
+        with open(root / "demand" / "day_001.csv", newline="") as f: n_parcels = sum(1 for _ in csv.DictReader(f))
         for name in ("baseline", "hybrid_otdr", "batched_nn"):
             calls = []
             base = fresh_policy(name)

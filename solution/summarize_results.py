@@ -12,6 +12,8 @@ DEFAULT_POLICIES = (
     "deadline_first",
     "window_nearest",
     "hybrid_otdr",
+    "seeded_nn",
+    "batched_nn",
 )
 SUMMARY_METRICS = (
     "otdr_percent",

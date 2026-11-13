@@ -1,0 +1,38 @@
+{
+ "baseline": {
+  "trips": 413,
+  "mean_parcels_per_trip": 15.55,
+  "max_parcels_per_trip": 37,
+  "share_of_trips_over_30_parcels_percent": 5.6
+ },
+ "deadline_first": {
+  "trips": 425,
+  "mean_parcels_per_trip": 19.23,
+  "max_parcels_per_trip": 38,
+  "share_of_trips_over_30_parcels_percent": 20.2
+ },
+ "window_nearest": {
+  "trips": 623,
+  "mean_parcels_per_trip": 21.12,
+  "max_parcels_per_trip": 43,
+  "share_of_trips_over_30_parcels_percent": 31.3
+ },
+ "hybrid_otdr": {
+  "trips": 605,
+  "mean_parcels_per_trip": 23.05,
+  "max_parcels_per_trip": 44,
+  "share_of_trips_over_30_parcels_percent": 39.3
+ },
+ "seeded_nn": {
+  "trips": 628,
+  "mean_parcels_per_trip": 23.1,
+  "max_parcels_per_trip": 48,
+  "share_of_trips_over_30_parcels_percent": 39.8
+ },
+ "batched_nn": {
+  "trips": 577,
+  "mean_parcels_per_trip": 25.56,
+  "max_parcels_per_trip": 42,
+  "share_of_trips_over_30_parcels_percent": 47.0
+ }
+}

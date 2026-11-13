@@ -1,7 +1,7 @@
 {
  "ablation": {
   "hybrid_otdr (as submitted)": {
-   "otdr_percent": 87.87491500000002,
+   "otdr_percent": 87.874915,
    "total_distance_km": 3665.5896000000002,
    "average_capacity_utilization_percent": 73.59231,
    "number_of_trips": 30.25,
@@ -32,10 +32,10 @@
   },
   "hybrid_otdr without 2-opt": {
    "otdr_percent": 87.779235,
-   "total_distance_km": 3834.2959500000006,
+   "total_distance_km": 3834.2959499999997,
    "average_capacity_utilization_percent": 74.64838999999999,
    "number_of_trips": 29.75,
-   "otdr_dev": 87.79950000000001,
+   "otdr_dev": 87.7995,
    "otdr_eval": 87.75897,
    "otdr_by_day": [
     87.4844,
@@ -63,7 +63,7 @@
   "seeded_nn (no hold rule)": {
    "otdr_percent": 91.43156,
    "total_distance_km": 3420.9891000000002,
-   "average_capacity_utilization_percent": 73.79607500000002,
+   "average_capacity_utilization_percent": 73.796075,
    "number_of_trips": 31.4,
    "otdr_dev": 91.25188,
    "otdr_eval": 91.61124,
@@ -91,12 +91,12 @@
    ]
   },
   "batched_nn without 2-opt": {
-   "otdr_percent": 91.38833500000001,
+   "otdr_percent": 91.388335,
    "total_distance_km": 3384.3354,
    "average_capacity_utilization_percent": 81.974835,
    "number_of_trips": 28.25,
    "otdr_dev": 90.13295000000001,
-   "otdr_eval": 92.64371999999999,
+   "otdr_eval": 92.64372,
    "otdr_by_day": [
     88.6108,
     87.6943,
@@ -183,7 +183,7 @@
  },
  "sensitivity": {
   "LOAD_TARGET=0.5": {
-   "otdr_percent": 92.48550999999999,
+   "otdr_percent": 92.48551,
    "total_distance_km": 3267.03855,
    "average_capacity_utilization_percent": 81.425465,
    "number_of_trips": 28.8,
@@ -304,7 +304,7 @@
   },
   "LOAD_TARGET=0.9": {
    "otdr_percent": 93.139825,
-   "total_distance_km": 3259.6260000000007,
+   "total_distance_km": 3259.6259999999997,
    "average_capacity_utilization_percent": 81.891985,
    "number_of_trips": 28.85,
    "otdr_dev": 92.71462,
@@ -334,7 +334,7 @@
   },
   "LOAD_TARGET=1.0": {
    "otdr_percent": 87.27058,
-   "total_distance_km": 2666.5597500000003,
+   "total_distance_km": 2666.55975,
    "average_capacity_utilization_percent": 82.54982,
    "number_of_trips": 26.7,
    "otdr_dev": 87.67926,
@@ -363,12 +363,12 @@
    ]
   },
   "WINDOW_MARGIN=10.0": {
-   "otdr_percent": 93.48183499999999,
+   "otdr_percent": 93.481835,
    "total_distance_km": 3254.4976500000002,
    "average_capacity_utilization_percent": 82.17551999999999,
    "number_of_trips": 28.85,
    "otdr_dev": 93.23476,
-   "otdr_eval": 93.72891000000001,
+   "otdr_eval": 93.72891,
    "otdr_by_day": [
     90.4881,
     93.2642,
@@ -398,7 +398,7 @@
    "average_capacity_utilization_percent": 81.875895,
    "number_of_trips": 28.85,
    "otdr_dev": 92.71462,
-   "otdr_eval": 93.50306,
+   "otdr_eval": 93.50305999999999,
    "otdr_by_day": [
     90.9887,
     93.2642,
@@ -453,11 +453,11 @@
    ]
   },
   "WINDOW_MARGIN=45.0": {
-   "otdr_percent": 92.23649999999999,
-   "total_distance_km": 3307.2681000000002,
-   "average_capacity_utilization_percent": 78.69145999999998,
+   "otdr_percent": 92.2365,
+   "total_distance_km": 3307.2681,
+   "average_capacity_utilization_percent": 78.69146,
    "number_of_trips": 29.7,
-   "otdr_dev": 91.75510999999997,
+   "otdr_dev": 91.75511,
    "otdr_eval": 92.71789,
    "otdr_by_day": [
     91.4894,
@@ -487,7 +487,7 @@
    "total_distance_km": 3380.04225,
    "average_capacity_utilization_percent": 75.704395,
    "number_of_trips": 30.8,
-   "otdr_dev": 91.79295999999998,
+   "otdr_dev": 91.79296000000001,
    "otdr_eval": 92.30933,
    "otdr_by_day": [
     91.6145,
@@ -574,10 +574,10 @@
   },
   "CUTOFF_MARGIN=20.0": {
    "otdr_percent": 92.96123,
-   "total_distance_km": 3298.684199999999,
-   "average_capacity_utilization_percent": 79.81515499999999,
+   "total_distance_km": 3298.6841999999997,
+   "average_capacity_utilization_percent": 79.815155,
    "number_of_trips": 29.55,
-   "otdr_dev": 92.70203,
+   "otdr_dev": 92.70203000000001,
    "otdr_eval": 93.22043,
    "otdr_by_day": [
     90.9887,
@@ -603,7 +603,7 @@
    ]
   },
   "CUTOFF_MARGIN=40.0": {
-   "otdr_percent": 92.99283999999999,
+   "otdr_percent": 92.99284,
    "total_distance_km": 3405.7480499999997,
    "average_capacity_utilization_percent": 75.47746,
    "number_of_trips": 31.2,

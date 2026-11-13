@@ -1,5 +1,5 @@
 """Shared helpers for the supplementary analyses (run from the project root: python3 analysis/<script>.py)."""
-import csv, importlib.util, json, os, sys, time
+import csv, importlib.util, json, os, sys, tempfile, time
 from multiprocessing import Pool
 from pathlib import Path
 
@@ -23,7 +23,9 @@ def fresh_policy(name, **overrides):
     return mod.dispatch
 
 
-def run_day(policy_fn, day, data=None, tmp="/tmp/analysis_runs"):
+def run_day(policy_fn, day, data=None, tmp=None):
+    """Simulate one day with policy_fn and return its metrics (plus wall-clock seconds). Logs go to a temporary folder."""
+    tmp = tmp or Path(tempfile.gettempdir()) / "is115_analysis_runs"
     data = Path(data or PROJ / "data")
     parcels, dist, cfg = day_input_paths(data, day)
     sim = Simulator(parcels, dist, cfg, dispatch_policy=policy_fn)
